@@ -11,7 +11,7 @@ export default function SearchHeader() {
       {query ? (
         <>
           Search results for{" "}
-          <span className="text-indigo-600">&quot;{query}&quot;</span>
+          <span className="text-primary-600">&quot;{query}&quot;</span>
         </>
       ) : (
         "Products"

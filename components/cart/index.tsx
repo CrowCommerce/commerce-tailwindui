@@ -58,7 +58,7 @@ export default function Cart() {
       {/* Cart Button */}
       <button
         onClick={openCart}
-        className="group -m-2 flex items-center rounded-md p-2 focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+        className="group -m-2 flex items-center rounded-md p-2 focus-visible:outline-2 focus-visible:outline-primary-600 focus-visible:outline-offset-2"
       >
         <ShoppingBagIcon
           aria-hidden="true"
@@ -96,7 +96,7 @@ export default function Cart() {
                         <button
                           type="button"
                           onClick={closeCart}
-                          className="relative -m-2 rounded-md p-2 text-gray-400 hover:text-gray-500 focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+                          className="relative -m-2 rounded-md p-2 text-gray-400 hover:text-gray-500 focus-visible:outline-2 focus-visible:outline-primary-600 focus-visible:outline-offset-2"
                         >
                           <span className="absolute -inset-0.5" />
                           <span className="sr-only">Close panel</span>
@@ -190,7 +190,7 @@ export default function Cart() {
                                             optimisticUpdate={updateCartItem}
                                             size="xs"
                                           />
-                                          <span className="relative z-10 mx-1 w-8 px-0.5 text-center text-sm font-semibold leading-none text-indigo-500 tabular-nums select-none">
+                                          <span className="relative z-10 mx-1 w-8 px-0.5 text-center text-sm font-semibold leading-none text-primary-500 tabular-nums select-none">
                                             {item.quantity}
                                           </span>
                                           <EditItemQuantityButton
@@ -270,7 +270,7 @@ export default function Cart() {
                         <button
                           type="button"
                           onClick={closeCart}
-                          className="rounded font-medium text-indigo-600 hover:text-indigo-500 focus-visible:outline-2 focus-visible:outline-indigo-600 focus-visible:outline-offset-2"
+                          className="rounded font-medium text-primary-600 hover:text-primary-500 focus-visible:outline-2 focus-visible:outline-primary-600 focus-visible:outline-offset-2"
                         >
                           Continue Shopping
                           <span aria-hidden="true"> &rarr;</span>
@@ -293,7 +293,7 @@ function CheckoutButton() {
 
   return (
     <button
-      className="flex w-full items-center justify-center rounded-md bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-indigo-700 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus:outline-hidden"
+      className="flex w-full items-center justify-center rounded-md bg-primary-600 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-primary-700 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus:outline-hidden"
       type="submit"
       disabled={pending}
     >

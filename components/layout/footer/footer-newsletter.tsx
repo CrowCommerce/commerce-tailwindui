@@ -14,12 +14,12 @@ export default function FooterNewsletter() {
           required
           autoComplete="email"
           aria-label="Email address"
-          className="block w-full rounded-md bg-white px-4 py-2 text-base text-gray-900 placeholder:text-gray-400 border border-gray-300 focus:border-indigo-600 focus:ring-1 focus:ring-indigo-600"
+          className="block w-full rounded-md bg-white px-4 py-2 text-base text-gray-900 placeholder:text-gray-400 border border-gray-300 focus:border-primary-600 focus:ring-1 focus:ring-primary-600"
         />
         <div className="ml-4 shrink-0">
           <button
             type="submit"
-            className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-xs hover:bg-indigo-700 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus:outline-hidden"
+            className="flex w-full items-center justify-center rounded-md border border-transparent bg-primary-600 px-4 py-2 text-base font-medium text-white shadow-xs hover:bg-primary-700 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus:outline-hidden"
           >
             Sign up
           </button>

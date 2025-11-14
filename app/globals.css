@@ -9,7 +9,7 @@
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+    border-color: theme('colors.secondary.200');
   }
 }
 

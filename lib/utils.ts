@@ -114,7 +114,8 @@ export const transformShopifyCollectionToTailwind = (
 };
 
 // Helper function to convert color names to hex codes
-// This is a simple implementation - you can expand with more colors as needed
+// NOTE: These color values are also defined in tailwind.config.ts under theme.extend.colors.variants
+// Keep both locations in sync when adding new product variant colors
 const getColorHex = (colorName: string): string => {
   const colorMap: Record<string, string> = {
     black: "#111827",

@@ -41,7 +41,7 @@ export const ProductResult = forwardRef<
       {...props}
       className={`flex cursor-pointer select-none items-center rounded-lg px-3 py-2 ${
         active
-          ? "bg-indigo-600 text-white"
+          ? "bg-primary-600 text-white"
           : "bg-gray-50 text-gray-900 hover:bg-gray-100"
       }`}
     >
@@ -49,7 +49,7 @@ export const ProductResult = forwardRef<
       <div className="flex-none">
         <div
           className={`relative h-16 w-16 overflow-hidden rounded-md border ${
-            active ? "border-indigo-700" : "border-gray-300"
+            active ? "border-primary-700" : "border-gray-300"
           }`}
         >
           {product.featuredImage ? (
@@ -62,12 +62,12 @@ export const ProductResult = forwardRef<
           ) : (
             <div
               className={`flex h-full items-center justify-center ${
-                active ? "bg-indigo-500" : "bg-gray-100"
+                active ? "bg-primary-500" : "bg-gray-100"
               }`}
             >
               <span
                 className={
-                  active ? "text-indigo-100 text-xs" : "text-gray-400 text-xs"
+                  active ? "text-primary-100 text-xs" : "text-gray-400 text-xs"
                 }
               >
                 No image
@@ -85,7 +85,7 @@ export const ProductResult = forwardRef<
           {product.title}
         </p>
         <p
-          className={`text-sm ${active ? "text-indigo-100" : "text-gray-500"}`}
+          className={`text-sm ${active ? "text-primary-100" : "text-gray-500"}`}
         >
           ${price.toFixed(2)}
         </p>

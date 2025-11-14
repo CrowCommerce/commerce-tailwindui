@@ -20,11 +20,11 @@ export default function NavbarDesktop({
         {navigation.categories.map((category, categoryIdx) => (
           <Popover key={category.name} className="flex">
             <div className="relative flex">
-              <PopoverButton className="group relative flex items-center justify-center text-sm font-medium text-gray-700 transition-colors duration-200 ease-out hover:text-gray-800 focus-visible:outline-2 focus-visible:outline-indigo-600 data-open:text-indigo-600">
+              <PopoverButton className="group relative flex items-center justify-center text-sm font-medium text-gray-700 transition-colors duration-200 ease-out hover:text-gray-800 focus-visible:outline-2 focus-visible:outline-primary-600 data-open:text-primary-600">
                 {category.name}
                 <span
                   aria-hidden="true"
-                  className="absolute inset-x-0 -bottom-px z-30 h-0.5 transition duration-200 ease-out group-data-open:bg-indigo-600"
+                  className="absolute inset-x-0 -bottom-px z-30 h-0.5 transition duration-200 ease-out group-data-open:bg-primary-600"
                 />
               </PopoverButton>
             </div>
