@@ -1,9 +1,5 @@
 export default {
-  experimental: {
-    cacheComponents: true,
-    inlineCss: true,
-    useCache: true,
-  },
+  cacheComponents: true,
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
